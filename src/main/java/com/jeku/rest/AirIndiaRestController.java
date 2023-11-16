@@ -20,7 +20,7 @@ public class AirIndiaRestController {
 		ticket.setFrom(pinfo.getFrom());
 		ticket.setTo(pinfo.getTo());
 		ticket.setTicketStatus("CONFIRMED");
-		ticket.setTicketPrice("4500.00");
+		ticket.setTicketPrice("5000.00");
 		ticket.setJourneyDate(pinfo.getJourneyDate());
 
 		return new ResponseEntity<>(ticket, HttpStatus.CREATED);
